@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>tente abrir esse site em vários sites diferentes ou simplismente auemente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-n.png" type="image/png">
+<img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+    <!-- MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/fhop music, Marco Telles _ COLOSSENSES E SUAS LINHAS DE AMOR (Ao Vivo) - Fhop Music.mp3" type="audio/mpeg">
+        <source src="midia/fhop music, Marco Telles _ COLOSSENSES E SUAS LINHAS DE AMOR (Ao Vivo) - Fhop Music.ogg" type="audio/ogg">
+        <source src="midia/fhop music, Marco Telles _ COLOSSENSES E SUAS LINHAS DE AMOR (Ao Vivo) - Fhop Music.wav" type="audio/wav">
+        <p>Infelizmente seu naveggador não consegue reproduzir áudio. <a href="midia/fhop music, Marco Telles _ COLOSSENSES E SUAS LINHAS DE AMOR (Ao Vivo) - Fhop Music.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>
